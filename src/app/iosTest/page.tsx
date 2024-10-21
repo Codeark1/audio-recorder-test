@@ -83,7 +83,7 @@ export default function App() {
   };
 
   return (
-    <div style={{ textAlign: 'center', marginTop: '20px' }}>
+    <div style={{ textAlign: 'center', marginTop: '20px', background : "green" }}>
       <h2>Custom Audio Recorder</h2>
       {/* <p>Recording Time: {recordingTime}s</p> */}
       {!isRecording ? (
